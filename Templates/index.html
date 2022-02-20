@@ -1,3 +1,7 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
 <h1>Hello World!</h1>
 <p>This is my first web page.</p>
 <p> My name is {{ first_name }}</p>
@@ -12,3 +16,5 @@
 {% endfor %}
 
 <p> {{ favourit_pizza.3 + 1 }}</p>
+
+{% endblock %}
